@@ -1,15 +1,11 @@
 <?php
+    include "./assets/includes/doctype.php";
 ?>
-<!DOCTYPE html>
-<html>
-    <head>
-
-    </head>
-
-    <body>
-    <?php
-        include "./assets/includes/header.php";
-        require "./assets/includes/navegationMenu.php";
-    ?>
-    </body>
-</html>
+    <title>Página principal</title>
+</head>
+<body>
+<?php
+    include "./assets/includes/header.php";
+    include ".assets/includes/navegationMenu.php";
+?>
+</body>
